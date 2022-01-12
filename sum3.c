@@ -9,7 +9,6 @@ void getRandInt(int *dataArr, int dataSize) {
             num *= -1; 
         } 
         dataArr[i] = num;
-        // *(dataArr + 1) = num; 
     }
 }
 
